@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+input, button {
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+div {
+    width: 300px;
+    margin-top: 8px;
+}
+
+.verdadeiro {
+    background-color: #6bc46b;
+    border-radius: 8px;
+    border: 1px solid #478d47 ;
+    color: #fff;
+    padding: 16px;
+}
+
+.falso {
+    background-color: #d74a48;
+    border-radius: 8px;
+    border: 1px solid #954233 ;
+    color: #fff;
+    padding: 16px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #447dc7;
+            color: #fff;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="titulo">Manipulando o DOM</h1>
+    <p id="texto">Aprendendo a usar o <strong>DOM</strong> em Javascript </p>
+    <div id="mensagem" class="mensagem">Clique em mim</div>
+
+    <script>
+        // pegando com getElementById()
+        let titulo = document.getElementById('titulo')
+        console.log(titulo)
+        // pegando por querySelector()
+        let texto = document.querySelector('#texto')
+        console.log(texto)
+        // pegando com querySelector()
+        let mensagem = document.querySelector('.mensagem')
+        
+        // mudando o texto da tag 
+        texto.textContent = "Mudando o texto com Javascript"
+        //  mudar a cor de um texto com js 
+        titulo.style.color = "blue"
+        // mudar cor de fundo com js 
+        titulo.style.background = "white"
+    </script>
+</body>
+
+</html>
